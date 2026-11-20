@@ -608,6 +608,17 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "cicd-architecture": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/cicd-architecture/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "clean-code": {
       "allowedTools": [
         "Read",
@@ -785,6 +796,17 @@
       "scripts": [],
       "version": "1.1.0"
     },
+    "jenkins-pipeline": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/jenkins-pipeline/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "lint-and-validate": {
       "allowedTools": [
         "Read",
@@ -860,6 +882,17 @@
         "Grep"
       ],
       "path": "skills/nodejs-best-practices/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "openshift-tekton": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/openshift-tekton/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },

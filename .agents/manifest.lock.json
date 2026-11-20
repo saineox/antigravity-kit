@@ -1,7 +1,7 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "d76626492126b02b5562ec8a88bc9fcc5401932c252ede64415c98a1805fa392",
+    "ARCHITECTURE.md": "b2becaec5b2755e9e2aaeb8e6dab57bd0f2b8b61b0041e522b3eb2bd2f6b31d8",
     "CHANGELOG.md": "c29cb325d278be44ad662d91c86c180cf01c05d008f77cf4b3f0bd42de8c46f8",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
     "VERSION": "94bc11e2a5617c66e6d2f849e14be6579c44c90d0f985d80ce4dc96dff46fa94",
@@ -107,6 +107,7 @@
     "skills/behavioral-modes/SKILL.md": "b7c314b48af3e7f38ca0ad4ebb870f721e94778caea207996601896ccc66f47b",
     "skills/brainstorming/SKILL.md": "2094bb5967e78a296698057fc0634cd0146ac75ffc1a7b180f6065e009483542",
     "skills/brainstorming/dynamic-questioning.md": "8b69822e3285fda8d451d20db84fd82781ab43c1dae378d74ce57247623d2d8c",
+    "skills/cicd-architecture/SKILL.md": "2ab9734dadba1404461b3e2311a65929bb8f39e5929d69139f30985a9b98ed18",
     "skills/clean-code/SKILL.md": "24acc3a81caeb7dd0572b1cedf6e10fbbbfaf23400cd1aed85a960437529eb91",
     "skills/code-review-checklist/SKILL.md": "07b20413aa0d000202b6582c6050121cd8520bef701cc050a636651900de4838",
     "skills/code-review-graph/SKILL.md": "9e59161bbd8b251f4bc2076299192f8e0d7d89c9e54a12e3c33057e7e8dcf63d",
@@ -147,6 +148,13 @@
     "skills/i18n-localization/SKILL.md": "356847a4d612633c2531b0c49367cc82ac6d88546b97a3fe4aea05dc515a017f",
     "skills/i18n-localization/scripts/i18n_checker.py": "f01da31b02cfdc45d899efb351867f36be6812f4466406b7cf5a3f3f14c4e1b2",
     "skills/intelligent-routing/SKILL.md": "d0ad66b14912955ed6c74f25db17c440b839d9ea1be058f0f698fc111d27f0ea",
+    "skills/jenkins-pipeline/SKILL.md": "3f6996858efc58bbb3d03c6cedf9d532aa0b21cbe46949b830d55d6c3a2460e5",
+    "skills/jenkins-pipeline/references/agent.md": "4563c3a5884b6edbe8a30f7a7ba384faf9220ab8a28eeeaac8d69789829602de",
+    "skills/jenkins-pipeline/references/build-failure.md": "2863226391a61fde2cafd6bddd951bc504b651bbeb862c45945aa77345b5c4c0",
+    "skills/jenkins-pipeline/references/credentials.md": "2be4fc31bd19e1fbe770f5e836046609a315351a1e3d0b3c7fe8f1e012fd5e9e",
+    "skills/jenkins-pipeline/references/jenkinsfile-design.md": "94d05aae487e7d15a6f5f185b7569d3d608c40c785637f7e6265401be9048cf1",
+    "skills/jenkins-pipeline/references/migration.md": "14379e74e209b89b77fd5ede9246da185be51691b0314f12c5ce8536be46bb0b",
+    "skills/jenkins-pipeline/references/permissions.md": "41a209b0872bb3fcfbcca11936cd101bc29011c597b20a0f8cb5d154f1add7ac",
     "skills/lint-and-validate/SKILL.md": "f56e3bc04bd64e01c23e451ce4523ec7ae4c3efc56476c22bf97f4bcec21d947",
     "skills/lint-and-validate/scripts/lint_runner.py": "822c8185ad1df47fdbea2cafaa7141c5477e4c8227ee059749db80816cd1c486",
     "skills/lint-and-validate/scripts/type_coverage.py": "442f1559edd31dcd320eaaf2ecfc03d2e99f0dc8c42b7fd3ae5c3263073c7993",
@@ -179,6 +187,12 @@
     "skills/nextjs-react-expert/scripts/convert_rules.py": "848034fec008ec808851ea91f698b9032dab199eadb9f9bfbc5fd5b8f14d0108",
     "skills/nextjs-react-expert/scripts/react_performance_checker.py": "aae59d1e0aa1b58acd3fdac4701b3822956c6057d932794822ef4ee3342a7781",
     "skills/nodejs-best-practices/SKILL.md": "da0e84eb6dd2f9784860209ce451725d32a5743a685084bd077d69503aa7e706",
+    "skills/openshift-tekton/SKILL.md": "5202afbf659a82cbb4e66c7eaf636b948f390c028ca42b760c37a0f1a2b4ac99",
+    "skills/openshift-tekton/references/performance.md": "37858bce1ede47af72d94cb229296d5312e382a3879f8c11c6ebb4e7b956850d",
+    "skills/openshift-tekton/references/pipeline-design.md": "a609f668e087c72c4078fac83cad702fe30dc26a76e3bae5074a7f12ea35454e",
+    "skills/openshift-tekton/references/runtime-diagnosis.md": "74675feb666c88c046324070b934f01ea4cfcf406b7ec812546e78ba539e2f7b",
+    "skills/openshift-tekton/references/trigger.md": "c6961bf1d1de7dab51d46d57ba7e05bc5da34349ea11cbaa92836943666faddf",
+    "skills/openshift-tekton/references/workspace.md": "ed0ca7b3d626215218bda1b59f48e21181e9b8c37db8826c677f57d1bca2caec",
     "skills/parallel-agents/SKILL.md": "f61769e3ba2298d8311bdf75b2a69c0138640422255ed9449286c10e224e7892",
     "skills/performance-profiling/SKILL.md": "91bd2041ab8447ad6fc6fa16d4e0e414adc2ee38e4df6fd27f1810e4e982ca0c",
     "skills/performance-profiling/scripts/bundle_analyzer.py": "f626e41febb7f56ac68e3870e1b53f3c85560ee3d5ac5b720fdfb0fbb353eccc",
@@ -221,6 +235,6 @@
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
   "kitVersion": "2026.8.31",
-  "manifestSha256": "2f662eae86d5fe5842cb3daf8558395f50c541d43c692710e067386224531035",
+  "manifestSha256": "bcaf81e98355a8524713bce767a9e155dbe07c802d6eadd3a9eaa556c429343c",
   "schemaVersion": "1.0.0"
 }
