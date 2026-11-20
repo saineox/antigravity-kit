@@ -524,6 +524,17 @@
   },
   "schemaVersion": "1.0.0",
   "skills": {
+    "ansible-automation": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/ansible-automation/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "api-patterns": {
       "allowedTools": [
         "Read",
@@ -785,6 +796,17 @@
       "scripts": [],
       "version": "1.1.0"
     },
+    "kvm-linux-virtualization": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/kvm-linux-virtualization/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "lint-and-validate": {
       "allowedTools": [
         "Read",
@@ -797,6 +819,17 @@
         "skills/lint-and-validate/scripts/lint_runner.py",
         "skills/lint-and-validate/scripts/type_coverage.py"
       ],
+      "version": "1.0.0"
+    },
+    "linux-virtualization-correlator": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/linux-virtualization-correlator/SKILL.md",
+      "scripts": [],
       "version": "1.0.0"
     },
     "mcp-builder": {
@@ -929,6 +962,17 @@
         "Grep"
       ],
       "path": "skills/red-team-tactics/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "redhat-satellite-lifecycle": {
+      "allowedTools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "skills/redhat-satellite-lifecycle/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
